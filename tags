@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Signature	aoe2_scroll_bugfix.cpp	/^struct Signature {$/;"	s	file:
+findPatchLocation	aoe2_scroll_bugfix.py	/^def findPatchLocation(exeContents, signature):$/;"	f
+findPatchLocations	aoe2_scroll_bugfix.py	/^def findPatchLocations(exeContents):$/;"	f
+main	aoe2_scroll_bugfix.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	aoe2_scroll_bugfix.py	/^def main():$/;"	f
+memFind	aoe2_scroll_bugfix.cpp	/^long memFind(const uint8_t *haystack, size_t haystackLength, const uint8_t *needle, size_t needleLength) {$/;"	f
+offsets	aoe2_scroll_bugfix.cpp	/^    std::vector<unsigned> offsets;$/;"	m	struct:Signature	file:
+originalConstant	aoe2_scroll_bugfix.cpp	/^constexpr uint8_t originalConstant = 0x01;$/;"	v
+originalConstant	aoe2_scroll_bugfix.py	/^originalConstant = 0x01$/;"	v
+patchBinary	aoe2_scroll_bugfix.py	/^def patchBinary(exeContents, patchLocations):$/;"	f
+replacementConstant	aoe2_scroll_bugfix.cpp	/^constexpr uint8_t replacementConstant = 0x7F;$/;"	v
+replacementConstant	aoe2_scroll_bugfix.py	/^replacementConstant = 0x7F$/;"	v
+sequence	aoe2_scroll_bugfix.cpp	/^    std::vector<uint8_t> sequence;$/;"	m	struct:Signature	file:
+signatures	aoe2_scroll_bugfix.py	/^signatures = [ (b"\\x33\\xF6\\x80\\xBD\\x21\\xFF\\xFF\\xFF\\x01\\x76\\x05\\x83\\xCB\\xFF", [8, 22])$/;"	v
